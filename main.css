@@ -1,6 +1,8 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: #f7f7f7;
+    overflow-x: hidden;
+    height: 50px;
 }
 
 header {
@@ -8,6 +10,7 @@ header {
     height: 757px;
     background: url("images/HeroImg.png") center center no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 
@@ -78,6 +81,7 @@ header {
 
 .intro {
     background: #f7f7f7;
+    overflow: hidden;
 }
 
 .intro .intro-logo {
@@ -102,6 +106,9 @@ header {
     font-size: 17px;
     color: #8f9293;
     line-height: 32px;
+}
+.portfolio {
+    overflow: hidden;
 }
 
 .portfolio h2 {
@@ -368,6 +375,7 @@ header {
     position: relative;
     top: -1335px;
     background: #f7f7f7;
+    overflow: hidden;
 }
 
 .social img {
@@ -520,6 +528,8 @@ header {
     top: -1128px;
     overflow: hidden;
     padding: 50px 0;
+    color: #fff;
+    overflow: hidden;
 }
 
 .subscribe .logo img {
@@ -568,4 +578,73 @@ header {
     font-weight: 100;
     border: 0px solid #63c19d;
     font-size: 22px;
+}
+
+.footer{
+    position: relative;
+    top: -1100px;
+	overflow: hidden;
+	background: #f7f7f7;
+	padding: 60px 0;
+}
+
+.footer h2{
+    position: relative;
+    left: 188px;
+    top: 3px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #666;
+}
+
+.footer p{
+    position: relative;
+    left: 186px;
+    top: -8px;
+    font-size: 13px;
+    color: #666;
+}
+
+.links {
+    position: relative;
+    left: 400px;
+    top: 17px;
+}
+
+.footer .links .twitLogo{
+    width: 33px;
+    position: relative;
+    left: 12.5px;
+    top: 1px;
+}
+
+.footer .links .fbLogo{
+    width: 33px;
+    position: relative;
+    left: 24px;
+    top: 1px;
+}
+
+.footer .links .pintLogo{
+    width: 33px;
+    position: relative;
+    left: 35px;
+    top: 1px;
+}
+
+.last {
+    position: relative;
+    left: 560px;
+}
+
+.last p{
+	color: #666;
+	margin-top: 24px;
+    font-size: 13px;
+}
+
+.last span{
+    position: relative;
+    left: -1px;
+	margin: 0 4px;
 }
