@@ -104,11 +104,6 @@ header {
     line-height: 32px;
 }
 
-.portfolio {
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.09);
-    top: -10px;
-}
-
 .portfolio h2 {
     color: #353738;
     text-transform: uppercase;
@@ -372,7 +367,7 @@ header {
 .social {
     position: relative;
     top: -1335px;
-	background: #f7f7f7;
+    background: #f7f7f7;
 }
 
 .social img {
@@ -399,18 +394,18 @@ header {
     font-size: 17px;
 }
 
-.social .time{
+.social .time {
     position: relative;
     left: 26px;
     font-size: 18px;
     font-weight: 100;
-	color: #ccc;
+    color: #ccc;
 }
 
-.social .content{
-	display: block;
-	width: 76%;
-	margin: auto;
+.social .content {
+    display: block;
+    width: 76%;
+    margin: auto;
     color: #848789;
 }
 
@@ -430,7 +425,7 @@ header {
     top: 114px;
     left: 467px;
     position: relative;
-    border: solid #a9afb3 6.1px;    
+    border: solid #a9afb3 6.1px;
 }
 
 .social-button img {
@@ -445,4 +440,77 @@ header {
 
 .social-button-2 {
     left: 10px;
+}
+
+.portfolio-2 {
+    overflow: hidden;
+    background: #282F35;
+    position: relative;
+    top: -1181px;
+    margin: 0px;
+    width: 1525px;
+    padding: 0px;
+}
+
+.portoImg8,
+.portoImg10,
+.portoImg11,
+.portoImg13,
+.portoImg14,
+.portoImg15 {
+    width: 252px;
+    height: 253px;
+}
+
+.portoImg8 {
+    margin-left: 1px;
+}
+
+.portoImg10 {
+    width: 251px;
+    margin-left: -3px;
+}
+
+.portoImg11,
+.portoImg14 {
+    height: 100%;
+}
+
+.portoImg14 {
+    margin-left: -3px;
+}
+
+.portoImg13 {
+    width: 255px;
+}
+
+.portoImg15 {
+    width: 252px;
+    margin-left: -6px;
+}
+
+.portoImg9,
+.portoImg12 {
+    width: 504px;
+}
+
+.discover-btn {
+    position: relative;
+    left: -6px;
+    top: -1px;
+    padding: 82.5px 0px;
+    width: auto;
+    text-align: center;
+}
+
+.discover-btn a {
+    color: #f5f5f5;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 60px;
+    border: 1px solid #94979A;
+    padding: 16px 50px 14.5px 50px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
