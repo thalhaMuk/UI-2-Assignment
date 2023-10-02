@@ -514,3 +514,58 @@ header {
     letter-spacing: 3px;
     font-weight: 700;
 }
+
+.subscribe {
+    position: relative;
+    top: -1128px;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.subscribe .logo img {
+    width: 89px;
+}
+
+.subscribe h4 {
+    margin: 29px 0;
+    width: 899px;
+    height: 33px;
+    font-size: 22px;
+    line-height: 34px;
+    color: #848789;
+    position: relative;
+    left: 200px;
+    top: -1px;
+}
+
+.subscribe input {
+    position: relative;
+    top: -1px;
+    left: -2px;
+    padding: 19.5px 102px 20px 102px;
+    border: 1px solid #ccc;
+    font-style: italic;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
+.subscribe input::placeholder {
+    position: relative;
+    left: -80px;
+    font-size: 18px;
+    color: #929292;
+}
+
+.subscribe .btn {
+    padding: 16px 43px;
+    position: relative;
+    top: -3px;
+    left: 2px;
+    border-radius: 0;
+    text-transform: uppercase;
+    background: #63c19d;
+    color: #fff;
+    font-weight: 100;
+    border: 0px solid #63c19d;
+    font-size: 22px;
+}
