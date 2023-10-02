@@ -368,3 +368,81 @@ header {
     bottom: 1145.5px;
     left: 1009px;
 }
+
+.social {
+    position: relative;
+    top: -1335px;
+	background: #f7f7f7;
+}
+
+.social img {
+    width: 30.5px;
+}
+
+.social h2 {
+    position: relative;
+    top: 29px;
+    left: -16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.social .name {
+    position: relative;
+    left: 5px;
+}
+
+.social .symbol {
+    color: #ccc;
+    position: relative;
+    left: 12px;
+    font-size: 17px;
+}
+
+.social .time{
+    position: relative;
+    left: 26px;
+    font-size: 18px;
+    font-weight: 100;
+	color: #ccc;
+}
+
+.social .content{
+	display: block;
+	width: 76%;
+	margin: auto;
+    color: #848789;
+}
+
+.social p {
+    position: relative;
+    top: 37px;
+    left: 14px;
+    font-size: 21px;
+}
+
+.social .content::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    display: block;
+    top: 114px;
+    left: 467px;
+    position: relative;
+    border: solid #a9afb3 6.1px;    
+}
+
+.social-button img {
+    width: 13px;
+    position: relative;
+    top: 95px;
+}
+
+.social-button-1 {
+    left: 8px;
+}
+
+.social-button-2 {
+    left: 10px;
+}
