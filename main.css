@@ -1,18 +1,15 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #f7f7f7;
     overflow-x: hidden;
-    height: 50px;
+    overflow-y: scroll;
 }
 
 header {
-    top: 0;
     height: 757px;
     background: url("images/HeroImg.png") center center no-repeat;
     background-size: cover;
     overflow: hidden;
 }
-
 
 .navbar {
     position: absolute;
@@ -82,6 +79,8 @@ header {
 .intro {
     background: #f7f7f7;
     overflow: hidden;
+    padding-top: 110px;
+    padding-bottom: 150px;
 }
 
 .intro .intro-logo {
@@ -90,25 +89,37 @@ header {
 
 .intro h2 {
     position: relative;
-    font-size: 19px;
+    font-size: 18px;
     top: 27px;
-    left: -1px;
+    left: 1px;
     color: #353738;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    word-spacing: 2px;
 }
 
 .intro p {
     position: relative;
     top: 38px;
-    left: 116px;
-    width: 1100px;
+    left: 156px;
+    width: 1020px;
     font-size: 17px;
-    color: #8f9293;
+    color: #848789;
     line-height: 32px;
 }
+
 .portfolio {
     overflow: hidden;
+}
+
+.portfolio p {
+    margin: auto;
+    font-size: 15px;
+    width: 380px;
+    line-height: 29px;
+    color: #848789;
+    font-weight: 400;
+    text-align: justify;
 }
 
 .portfolio h2 {
@@ -121,261 +132,244 @@ header {
 }
 
 .portfolio-content {
-    display: block;
-    width: 87%;
-    margin: auto;
-}
-
-.portfolio-big img {
-    width: 100%;
-}
-
-.portfolio-big,
-.portfolio-small {
-    padding: 0;
-}
-
-.portfolio-big-small,
-.portfolio-small-big {
-    overflow: hidden;
-    max-height: 502px;
-}
-
-.portfolio-small p {
-    text-align: justify;
-    font-size: 15px;
+    font-size: 16px;
     color: #848789;
-}
-
-.portfolio-description {
-    position: relative;
-    top: 30px;
+    font-weight: 400;
+    line-height: 29px;
 }
 
 .portfolio-description:after {
-    position: relative;
-    top: 22.5px;
-    right: 1px;
     content: '';
     display: block;
     width: 47px;
     height: 1px;
-    background: #ccc;
+    background-color: rgba(53, 55, 56, 0.2);
     margin: auto;
-    margin-top: 16px;
-}
-
-.portfolio-small-image:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-top: 10px solid #fff;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    position: relative;
-    top: -920px;
-    left: 1010px;
-}
-
-.portfolio-description img {
-    width: 39px;
+    margin-top: -63px;
+    margin-left: 213px;
 }
 
 .portfolio-item-1 {
     overflow: hidden;
-    position: relative;
     height: 100%;
-    top: -505px;
-    left: 1009px;
 }
 
-.portfolio-item-1 .portfolio-content {
+.portfolio-item-1 .portfolio-image-big {
+    width: 1009px;
+}
+
+.portfolio-item-1 .left-image {
+    display: inline-block;
     position: relative;
-    top: 5px;
-    left: 30px;
-    line-height: 28px;
 }
 
-.portfolio-small-image {
-    height: 292px;
-    position: relative;
-    top: 2.5px;
-}
-
-.portfolio-item-1 .portfolio-small-image img {
-    width: 506px;
-    height: 196px !important;
-    position: relative !important;
-    bottom: -101px !important;
-    left: -20px;
-}
-
-.portfolio-description-logo {
-    position: relative;
-    bottom: 27px;
-    left: -2px;
-}
-
-.portfolio-big {
-    position: relative;
-    top: -1px;
-}
-
-.portfolio-logo-1 img {
+.portfolio-item-1 .left-image .portfolio-logo {
     position: absolute;
-    width: 108px;
-    top: 226px;
-    left: 450px;
+    left: 44.75%;
+    top: 40.21%;
+    width: 10.5%;
 }
 
-.small-big {
+.portfolio-item-1 .portfolio-description-logo {
     position: relative;
-    bottom: 450px;
+    top: -28px;
+    left: -1px;
+    width: 40px;
 }
 
-.portfolio-item-2 .portfolio-description:after {
+.portfolio-item-1 .portfolio-description-text {
     position: relative;
-    top: 21.5px;
-    left: 0.5px;
+    top: 94px;
+    left: -6px;
 }
 
-.small-big .portfolio-description-logo {
-    width: 30px;
+.portfolio-item-1 p {
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+
+.portfolio-item-1 .protoImg2 {
+    width: 506px;
+    position: relative;
+    top: 179px;
+    left: -35px;
+}
+
+.portfolio-item-1 .portfolio-description-image:before {
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: relative;
+    top: 52.5px;
+    left: 113.5px;
+    z-index: 999;
+}
+
+.portfolio-item-2 .portfolio-description {
+    margin-top: 75px;
+    position: relative;
+    left: 40px;
+}
+
+.portfolio-item-2 h2 {
     position: relative;
     left: 1px;
+    top: 10px;
+}
+
+.portfolio-item-2 .portfolio-description-logo {
+    position: relative;
+    top: -16px;
+    left: -px;
+    width: 30px;
 }
 
 .portfolio-item-2 .portfolio-content {
     position: relative;
-    top: 4px;
-    left: 12px;
-    line-height: 28px;
-    width: 400px;
+    top: 14px;
+    left: 1px;
 }
 
-.portfolio-item-2 .portfolio-small-image {
-    height: 300px;
-}
-
-.portfolio-item-2 .portfolio-small-image img {
-    width: 512px;
+.portfolio-item-2 .portfolio-description-image img {
+    width: 504px;
     height: 190px;
     position: relative;
-    bottom: -108px;
-    left: -26px;
+    top: 59px;
+    left: -19px;
 }
 
-.portfolio-item-2 .portfolio-small-image:before {
+.portfolio-item-2 .portfolio-description-image:before {
     content: '';
-    width: 0;
     height: 0;
+    width: 0;
     border-top: 10px solid #fff;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     position: relative;
+    top: -7px;
     left: 121.5px;
-    top: 17.5px;
-    z-index: 10;
-}
-
-.portfolio-image-big-2 {
-    position: relative;
-    top: -567px;
-    left: 505px;
-    height: 568px;
-}
-
-.portfolio-logo-4 {
-    position: absolute;
-    top: -355px;
-    left: 925px;
     z-index: 999;
-    width: 167px;
 }
 
-.portfolio-big-small-big {
-    height: 1000px;
+.portfolio-item-2 .portfolio-description:after {
+    content: '';
+    display: block;
+    width: 47px;
+    height: 1px;
+    background-color: rgba(53, 55, 56, 0.2);
+    margin: auto;
+    margin-top: 43px;
+    margin-left: 189px;
+}
+
+.portfolio-item-2 .right-image {
     position: relative;
-    top: -1016.5px;
+    left: 57px;
 }
 
-.portfolio-logo-5 img {
-    width: 200px;
+.portfolio-item-2 .right-image .portfolio-image-big {
+    width: 1011px;
+    height: 569px;
+    position: absolute;
+    display: inline-block;
+}
+
+.portfolio-item-2 .portfolio-logo {
     position: relative;
-    top: -316px;
-    left: 152px;
+    width: 170px;
+    left: 48.25%;
+    top: 210px;
 }
 
-.portfolio-item-3 {
+.portfolio-item-3 .left-image img {
     position: relative;
-    top: -600px;
-    left: 500px;
+    top: 59px;
+    height: 567px;
+    width: 504.5px;
 }
 
-.portfolio-item-3 .portfolio-logo-6 img {
-    width: 22px;
+.portfolio-item-3 .left-image .portfolio-logo {
+    width: 190px !important;
+    height: 100%;
     position: relative;
-    top: -8px;
-    left: 6px;
+    display: inline-block;
+    top: -255px;
+    left: 155px;
 }
 
-.portfolio-item-3 .portfolio-small-image img {
+.portfolio-item-3 .right-image img {
     width: 500px;
+    height: 567px;
+    position: relative;
+    top: 59px;
+    left: 114px;
 }
 
-.portfolio-item-3 h2 {
+.portfolio-item-3 .portfolio-description {
+    margin-top: 115px;
+    margin-left: 160px;
     position: relative;
-    top: 13px;
-    left: 5px;
-    letter-spacing: 2.8px;
+    left: 20px;
+    top: 22px;
 }
 
-.portfolio-item-3 .portfolio-content {
+.portfolio-item-3 .portfolio-description .portfolio-description-logo {
     position: relative;
-    top: 17px;
-    left: 5px;
-    line-height: 28px;
-    width: 376px;
+    top: -25px;
+    left: -1px;
+    width: 22px;
 }
 
-.portfolio-image-bottom {
+.portfolio-item-3 .portfolio-description p {
     position: relative;
-    top: 120px;
-    height: 190px;
-    width: 504.5px !important;
-    left: -15px;
+    left: -58px;
+    top: 0.5px;
+}
+
+.portfolio-item-3 .portfolio-description h2 {
+    position: relative;
+    top: -3px;
+}
+
+.portfolio-item-3 .portfolio-image-bottom img {
+    width: 505px;
+    position: relative;
+    top: 174px;
+    left: 38px;
+}
+
+.portfolio-item-3 .portfolio-image-bottom:before {
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    z-index: 999;
 }
 
 .portfolio-item-3 .portfolio-description:after {
-    position: relative;
-    top: 35px;
-    left: 5.5px;
-}
-
-.portfolio-item-3 .portfolio-small-image:before {
     content: '';
-    width: 0;
-    height: 0;
-    border-top: 10px solid #fff;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+    display: block;
+    width: 47px;
+    height: 1px;
+    background-color: rgba(53, 55, 56, 0.2);
     position: relative;
-    left: 123.5px;
-    top: 24px;
-    z-index: 10;
-}
-
-.portfolio-big-right {
-    position: relative;
-    bottom: 1145.5px;
-    left: 1009px;
+    top: 93px;
+    left: -106px;
 }
 
 .social {
-    position: relative;
-    top: -1335px;
+    padding-top: 116px;
     background: #f7f7f7;
-    overflow: hidden;
+    padding-bottom: 155px;
 }
 
 .social img {
@@ -384,27 +378,28 @@ header {
 
 .social h2 {
     position: relative;
-    top: 29px;
-    left: -16px;
-    font-weight: bold;
-    font-size: 20px;
+    top: 28px;
+    left: -6px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 19px;
 }
 
 .social .name {
     position: relative;
-    left: 5px;
+    left: 0px;
 }
 
 .social .symbol {
     color: #ccc;
     position: relative;
-    left: 12px;
+    left: 3px;
     font-size: 17px;
 }
 
 .social .time {
     position: relative;
-    left: 26px;
+    left: 15px;
     font-size: 18px;
     font-weight: 100;
     color: #ccc;
@@ -430,16 +425,22 @@ header {
     height: 0;
     border-radius: 50%;
     display: block;
-    top: 114px;
-    left: 467px;
+    top: 113px;
+    left: 468px;
     position: relative;
     border: solid #a9afb3 6.1px;
+}
+
+.social .social-icon {
+    position: relative;
+    top: -2px;
+    left: 1px;
 }
 
 .social-button img {
     width: 13px;
     position: relative;
-    top: 95px;
+    top: 93px;
 }
 
 .social-button-1 {
@@ -453,11 +454,11 @@ header {
 .portfolio-2 {
     overflow: hidden;
     background: #282F35;
-    position: relative;
-    top: -1181px;
     margin: 0px;
-    width: 1525px;
+    width: 1515px;
     padding: 0px;
+    position: relative;
+    top: -2px;
 }
 
 .portoImg8,
@@ -467,11 +468,11 @@ header {
 .portoImg14,
 .portoImg15 {
     width: 252px;
-    height: 253px;
+    height: 252px;
 }
 
 .portoImg8 {
-    margin-left: 1px;
+    margin-left: 2px;
 }
 
 .portoImg10 {
@@ -499,33 +500,36 @@ header {
 
 .portoImg9,
 .portoImg12 {
-    width: 504px;
+    width: 505px;
+    height: 253px;
 }
 
 .discover-btn {
     position: relative;
-    left: -6px;
+    left: 0px;
     top: -1px;
     padding: 82.5px 0px;
     width: auto;
-    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
 }
 
 .discover-btn a {
+    position: relative;
     color: #f5f5f5;
     text-transform: uppercase;
     text-decoration: none;
     margin-top: 60px;
     border: 1px solid #94979A;
-    padding: 16px 50px 14.5px 50px;
+    padding: 16px 50px 14.5px 54px;
     font-size: 13px;
-    letter-spacing: 3px;
+    letter-spacing: 2.8px;
     font-weight: 700;
 }
 
 .subscribe {
     position: relative;
-    top: -1128px;
+    top: 50px;
     overflow: hidden;
     padding: 50px 0;
     color: #fff;
@@ -538,14 +542,12 @@ header {
 
 .subscribe h4 {
     margin: 29px 0;
-    width: 899px;
     height: 33px;
     font-size: 22px;
-    line-height: 34px;
     color: #848789;
     position: relative;
-    left: 200px;
-    top: -1px;
+    left: 2px;
+    top: 4px;
 }
 
 .subscribe input {
@@ -555,13 +557,14 @@ header {
     padding: 19.5px 102px 20px 102px;
     border: 1px solid #ccc;
     font-style: italic;
-    background-color: #f7f7f7;
+    background-color: #fff;
     font-size: 16px;
 }
 
 .subscribe input::placeholder {
     position: relative;
-    left: -80px;
+    left: -81px;
+    top: 1px;
     font-size: 18px;
     color: #929292;
 }
@@ -580,52 +583,53 @@ header {
     font-size: 22px;
 }
 
-.footer{
+.footer {
     position: relative;
-    top: -1100px;
-	overflow: hidden;
-	background: #f7f7f7;
-	padding: 60px 0;
+    top: 103px;
+    overflow: hidden;
+    background: #f7f7f7;
+    padding: 41px 0 22px 0;
 }
 
-.footer h2{
+.footer h2 {
     position: relative;
     left: 188px;
-    top: 3px;
-    line-height: 20px;
+    top: 2px;
+    line-height: 17px;
     font-size: 15px;
     color: #666;
 }
 
-.footer p{
+.footer p {
     position: relative;
     left: 186px;
-    top: -8px;
+    top: -7px;
     font-size: 13px;
+    line-height: 17px;
     color: #666;
 }
 
 .links {
     position: relative;
     left: 400px;
-    top: 17px;
+    top: 13px;
 }
 
-.footer .links .twitLogo{
+.footer .links .twitLogo {
     width: 33px;
     position: relative;
     left: 12.5px;
     top: 1px;
 }
 
-.footer .links .fbLogo{
+.footer .links .fbLogo {
     width: 33px;
     position: relative;
     left: 24px;
     top: 1px;
 }
 
-.footer .links .pintLogo{
+.footer .links .pintLogo {
     width: 33px;
     position: relative;
     left: 35px;
@@ -634,17 +638,18 @@ header {
 
 .last {
     position: relative;
-    left: 560px;
+    left: 561px;
+    top: -5px;
 }
 
-.last p{
-	color: #666;
-	margin-top: 24px;
+.last p {
+    color: #666;
+    margin-top: 24px;
     font-size: 13px;
 }
 
-.last span{
+.last span {
     position: relative;
     left: -1px;
-	margin: 0 4px;
+    margin: 0 4px;
 }
